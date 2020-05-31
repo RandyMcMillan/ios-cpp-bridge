@@ -450,7 +450,7 @@
 				DEVELOPMENT_TEAM = M684FYCYG6;
 				INFOPLIST_FILE = cpp.bridge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cpp.bridge;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(TARGET_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -463,7 +463,7 @@
 				DEVELOPMENT_TEAM = M684FYCYG6;
 				INFOPLIST_FILE = cpp.bridge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cpp.bridge;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(TARGET_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -475,7 +475,7 @@
 				DEVELOPMENT_TEAM = M684FYCYG6;
 				INFOPLIST_FILE = cpp.bridge.test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.bitcoincore.bitcoin-seeder-ios-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(TARGET_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-cpp-bridge.app/ios-cpp-bridge";
 			};
@@ -488,7 +488,7 @@
 				DEVELOPMENT_TEAM = M684FYCYG6;
 				INFOPLIST_FILE = cpp.bridge.test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.bitcoincore.bitcoin-seeder-ios-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(TARGET_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-cpp-bridge.app/ios-cpp-bridge";
 			};
@@ -500,7 +500,7 @@
 				DEVELOPMENT_TEAM = M684FYCYG6;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.seeder;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(TARGET_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = "$(TARGET_NAME)";
 				USES_XCTRUNNER = YES;
@@ -513,7 +513,7 @@
 				DEVELOPMENT_TEAM = M684FYCYG6;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.seeder;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(TARGET_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = "$(TARGET_NAME)";
 				USES_XCTRUNNER = YES;
